@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> Weather|Home</title>
+        <link rel="stylesheet" href = "css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="main-content">
+            <div class="container">
+                <div class="row">
+                    <H1 id="heading">Weather App</H1>
+                </div>  
+            </div>  
+            <div class='container'>
+                <p id='by-line'>Use this site to obtain weather in any region!</p>
+            </div>
+            
+                <form id='weather-form'>
+                    <div class = "container-fluid">
+                        <div class = 'row'>
+                            <div id='col'>
+                                <input placeholder="Location" name="Location" id="search-input" autocomplete="off" type="text">
+                                <button id='search' class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                     
+                </form>
+                <div id = "messages">
+                    <div class='contianer'><div id ='nav'></div><p id ="messageOne"></p></div>
+                    
+
+                    <p id ="messageTwo"></p>
+                </div>
+            </div>
+            <script src = "/js/index.js"></script>
+    </body>
+</html>
