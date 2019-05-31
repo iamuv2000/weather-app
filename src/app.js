@@ -47,7 +47,7 @@ app.get('/weather',(req,res)=>{
                 {
                     latitude:data.latitude,
                     longitude:data.longitude,
-                    location,
+                    location: data.location,
                     forecastData   
                 }
             )
