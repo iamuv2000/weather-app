@@ -6,14 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="main-content">
+        <div class="main-container">
+            <div class="row" id="heading-container">
                 <H1 id="heading">Weather App</H1>  
-            <div class='container'>
+            </div>
+                
+            <div class='row' id="by-line-container">
                 <p id='by-line'>Use this site to obtain weather in any region!</p>
             </div>
                 <form id='weather-form'>
-                    <input placeholder="Location" name="Location" id="search-input" autocomplete="off" type="text">
-                    <button id='search' class="btn btn-primary">Search</button>                     
+                    <div class = 'row' id = 'input-holder'>
+                        <input placeholder="Location" name="Location" id="search-input" autocomplete="off" type="text">
+                    </div>
+                    <p>
+                        <div id='button-container' class='contianer'>
+                            <button id='search' class="btn btn-primary">Search</button>  
+                        </div>
+                        
+                    </p>
+                                       
                 </form>
                 <div id = "messages">
                     <div class='contianer'><div id ='nav'></div><p id ="messageOne"></p></div>
